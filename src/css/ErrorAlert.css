@@ -1,0 +1,23 @@
+.alert {
+}
+
+.alert h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.alert button.moreless {
+    border: 0;
+    background-color: transparent;
+    margin-left: 10px;
+    outline: 0;
+}
+
+.alert div#moreError {
+    display: none;
+}
+
+.alert.showMore div#moreError {
+    display: block;
+}
